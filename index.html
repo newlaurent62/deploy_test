@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Static Site Deployer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Bienvenue sur Static Site Deployer</h1>
+        <p>Déployez facilement vos sites statiques sur diverses plateformes.</p>
+    </header>
+
+    <section id="intro">
+        <h2>Qu'est-ce que Static Site Deployer ?</h2>
+        <p>Static Site Deployer est un outil générique qui vous permet de déployer des sites web statiques sur plusieurs plateformes de manière simple et rapide.</p>
+    </section>
+
+    <section id="features">
+        <h2>Fonctionnalités :</h2>
+        <ul>
+            <li><strong>GitHub Pages :</strong> Déployez votre site sur GitHub Pages avec une simple commande.</li>
+            <li><strong>GitLab Pages :</strong> Déployez votre site sur GitLab Pages.</li>
+            <li><strong>SFTP :</strong> Déployez votre site sur un serveur SFTP.</li>
+            <li><strong>S3 :</strong> Déployez votre site sur un bucket AWS S3.</li>
+            <li><strong>Docker :</strong> Déployez votre site dans un conteneur Docker.</li>
+        </ul>
+    </section>
+
+    <section id="how-to">
+        <h2>Comment l'utiliser ?</h2>
+        <p>1. Clonez le repository du projet ou téléchargez les fichiers nécessaires.</p>
+        <p>2. Assurez-vous d'avoir Python et les dépendances requises installées (voir <code>requirements.txt</code>).</p>
+        <p>3. Utilisez la ligne de commande pour exécuter le déploiement :</p>
+        <pre><code>python deployer.py --platform <platform> --user <username> --repo-url <repo_url> --local-path <local_path> --domain <domain></code></pre>
+        <p>Exemples :</p>
+        <pre><code>python deployer.py --platform github --user monUtilisateur --repo-url https://github.com/monUtilisateur/monRepo --local-path ./build --domain monsite.com</code></pre>
+    </section>
+
+    <section id="support">
+        <h2>Support</h2>
+        <p>Si vous avez des questions ou des problèmes, n'hésitez pas à consulter notre documentation ou à nous contacter via notre page GitHub.</p>
+        <a href="https://framagit.org/jamclub/StaticAndResponsiveSiteGenerator/static-site-deployer" target="_blank">Visitez notre projet sur GitHub</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Static Site Deployer. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
